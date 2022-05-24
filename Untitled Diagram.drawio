@@ -1,1 +1,70 @@
-<mxfile host="app.diagrams.net" modified="2022-05-24T16:54:16.497Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" version="18.1.2" etag="1lsUXCztYuukOBQUvgLo" type="github"><diagram id="T4dnWcBQCs_vMEKI9DX1">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-24T17:38:35.874Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="CAy3svy_cuUFk6TLgam0" version="18.1.2" type="github">
+  <diagram id="T4dnWcBQCs_vMEKI9DX1" name="Page-1">
+    <mxGraphModel dx="1108" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="f3Y6MoSRswVl3ZdiLO-H-28" value="users" style="swimlane;rounded=0;shadow=0;glass=0;labelBackgroundColor=#66B2FF;labelBorderColor=default;sketch=0;fillColor=#66B2FF;gradientColor=#66B2FF;swimlaneFillColor=#66B2FF;" vertex="1" parent="1">
+          <mxGeometry x="60" y="10" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="f3Y6MoSRswVl3ZdiLO-H-29" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;id&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;name&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;email&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;email_verified_at&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;password&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;remember_token&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;avartar&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;level (0:host|1:admin|2:user)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;description&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;update_at&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="f3Y6MoSRswVl3ZdiLO-H-28">
+          <mxGeometry x="-40" y="45" width="170" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="f3Y6MoSRswVl3ZdiLO-H-31" value="oders" style="swimlane;rounded=0;shadow=0;glass=0;labelBackgroundColor=#66B2FF;labelBorderColor=default;sketch=0;fillColor=#66B2FF;gradientColor=#66B2FF;swimlaneFillColor=#66B2FF;" vertex="1" parent="1">
+          <mxGeometry x="330" y="110" width="130" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="f3Y6MoSRswVl3ZdiLO-H-32" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;id&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;first_name&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;class_name&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;company_name&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;country&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;street_address&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;postcode_zip&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;towm_city&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;email&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;phone&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;create_at&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;update_at&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="f3Y6MoSRswVl3ZdiLO-H-31">
+          <mxGeometry y="30" width="100" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="f3Y6MoSRswVl3ZdiLO-H-33" value="brands" style="swimlane;rounded=0;shadow=0;glass=0;labelBackgroundColor=#66B2FF;labelBorderColor=default;sketch=0;fillColor=#66B2FF;gradientColor=#66B2FF;swimlaneFillColor=#66B2FF;" vertex="1" parent="1">
+          <mxGeometry x="160" y="220" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="f3Y6MoSRswVl3ZdiLO-H-34" value="&lt;div style=&quot;&quot;&gt;id&lt;/div&gt;&lt;div style=&quot;&quot;&gt;name&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;create_at&lt;/div&gt;&lt;div style=&quot;&quot;&gt;update_at&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="f3Y6MoSRswVl3ZdiLO-H-33">
+          <mxGeometry y="20" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="f3Y6MoSRswVl3ZdiLO-H-35" value="order_details" style="swimlane;rounded=0;shadow=0;glass=0;labelBackgroundColor=#66B2FF;labelBorderColor=default;sketch=0;fillColor=#66B2FF;gradientColor=#66B2FF;swimlaneFillColor=#66B2FF;" vertex="1" parent="1">
+          <mxGeometry x="570" y="10" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="f3Y6MoSRswVl3ZdiLO-H-36" value="&lt;div style=&quot;&quot;&gt;id&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;order_id\product_id&lt;/div&gt;&lt;div style=&quot;&quot;&gt;qty&lt;/div&gt;&lt;div style=&quot;&quot;&gt;amount&lt;/div&gt;&lt;div style=&quot;&quot;&gt;total&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;create_at&lt;/div&gt;&lt;div style=&quot;&quot;&gt;update_at&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="f3Y6MoSRswVl3ZdiLO-H-35">
+          <mxGeometry y="30" width="120" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="f3Y6MoSRswVl3ZdiLO-H-37" value="products" style="swimlane;rounded=0;shadow=0;glass=0;labelBackgroundColor=#66B2FF;labelBorderColor=default;sketch=0;fillColor=#66B2FF;gradientColor=#66B2FF;swimlaneFillColor=#66B2FF;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="130" y="340" width="200" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="f3Y6MoSRswVl3ZdiLO-H-38" value="id&lt;br&gt;&lt;br&gt;brand_id&lt;br&gt;product_category_id&lt;br&gt;&lt;br&gt;name&lt;br&gt;desription&lt;br&gt;content&lt;br&gt;price&lt;br&gt;aty&lt;br&gt;discount&lt;br&gt;weight&lt;br&gt;sku&lt;br&gt;tag&lt;br&gt;featured&lt;br&gt;&lt;br&gt;create_at&lt;br&gt;update_at&lt;br&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="f3Y6MoSRswVl3ZdiLO-H-37">
+          <mxGeometry y="30" width="120" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="f3Y6MoSRswVl3ZdiLO-H-41" value="product_comments" style="swimlane;rounded=0;shadow=0;glass=0;labelBackgroundColor=#66B2FF;labelBorderColor=default;sketch=0;fillColor=#66B2FF;gradientColor=#66B2FF;swimlaneFillColor=#66B2FF;" vertex="1" parent="1">
+          <mxGeometry x="530" y="395" width="200" height="205" as="geometry" />
+        </mxCell>
+        <mxCell id="f3Y6MoSRswVl3ZdiLO-H-42" value="&lt;div style=&quot;&quot;&gt;id&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;product_id&lt;/div&gt;&lt;div style=&quot;&quot;&gt;user_id&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;email&lt;/div&gt;&lt;div style=&quot;&quot;&gt;name&lt;/div&gt;&lt;div style=&quot;&quot;&gt;messages&lt;/div&gt;&lt;div style=&quot;&quot;&gt;rating&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;create_at&lt;/div&gt;&lt;div style=&quot;&quot;&gt;update_at&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="f3Y6MoSRswVl3ZdiLO-H-41">
+          <mxGeometry y="30" width="70" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="f3Y6MoSRswVl3ZdiLO-H-46" value="product_images" style="swimlane;rounded=0;shadow=0;glass=0;labelBackgroundColor=#66B2FF;labelBorderColor=default;sketch=0;fillColor=#66B2FF;gradientColor=#66B2FF;swimlaneFillColor=#66B2FF;" vertex="1" parent="1">
+          <mxGeometry x="220" y="280" width="200" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="f3Y6MoSRswVl3ZdiLO-H-47" value="&lt;div style=&quot;&quot;&gt;id&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;product_id&lt;/div&gt;&lt;div style=&quot;&quot;&gt;path&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;create_at&lt;/div&gt;&lt;div style=&quot;&quot;&gt;update_id&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="f3Y6MoSRswVl3ZdiLO-H-46">
+          <mxGeometry x="5" y="20" width="70" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="f3Y6MoSRswVl3ZdiLO-H-48" value="product_category" style="swimlane;rounded=0;shadow=0;glass=0;labelBackgroundColor=#66B2FF;labelBorderColor=default;sketch=0;fillColor=#66B2FF;gradientColor=#66B2FF;swimlaneFillColor=#66B2FF;" vertex="1" parent="1">
+          <mxGeometry x="230" y="290" width="200" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="f3Y6MoSRswVl3ZdiLO-H-49" value="&lt;div style=&quot;&quot;&gt;id&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;name&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;create_at&lt;/div&gt;&lt;div style=&quot;&quot;&gt;update_at&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="f3Y6MoSRswVl3ZdiLO-H-48">
+          <mxGeometry y="30" width="70" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="f3Y6MoSRswVl3ZdiLO-H-50" value="blogs" style="swimlane;rounded=0;shadow=0;glass=0;labelBackgroundColor=#66B2FF;labelBorderColor=default;sketch=0;fillColor=#66B2FF;gradientColor=#66B2FF;swimlaneFillColor=#66B2FF;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="240" y="300" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="f3Y6MoSRswVl3ZdiLO-H-51" value="&lt;div style=&quot;&quot;&gt;id&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;user_id&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;title&lt;/div&gt;&lt;div style=&quot;&quot;&gt;category&lt;/div&gt;&lt;div style=&quot;&quot;&gt;content&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;create_at&lt;/div&gt;&lt;div style=&quot;&quot;&gt;update_at&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="f3Y6MoSRswVl3ZdiLO-H-50">
+          <mxGeometry width="70" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="f3Y6MoSRswVl3ZdiLO-H-52" value="blog_comment" style="swimlane;rounded=0;shadow=0;glass=0;labelBackgroundColor=#66B2FF;labelBorderColor=default;sketch=0;fillColor=#66B2FF;gradientColor=#66B2FF;swimlaneFillColor=#66B2FF;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="250" y="310" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="f3Y6MoSRswVl3ZdiLO-H-53" value="&lt;div style=&quot;&quot;&gt;id&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;blog_id&lt;/div&gt;&lt;div style=&quot;&quot;&gt;user_id&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;email&lt;/div&gt;&lt;div style=&quot;&quot;&gt;name&lt;/div&gt;&lt;div style=&quot;&quot;&gt;message&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;create_at&lt;/div&gt;&lt;div style=&quot;&quot;&gt;update_at&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="f3Y6MoSRswVl3ZdiLO-H-52">
+          <mxGeometry x="10" y="30" width="70" height="170" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
